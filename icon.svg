@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="46%" r="60%">
+      <stop offset="0%" stop-color="#0d1b38" />
+      <stop offset="55%" stop-color="#060c1d" />
+      <stop offset="100%" stop-color="#04070f" />
+    </radialGradient>
+    <linearGradient id="ring-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="55%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ff2a7a" />
+    </linearGradient>
+    <radialGradient id="core-orb" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#e0ffff" />
+      <stop offset="45%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg-glow)" />
+  <circle cx="256" cy="256" r="168" stroke="#00f0ff" stroke-opacity="0.24" stroke-width="4" stroke-dasharray="14 14" />
+  <circle cx="256" cy="256" r="132" stroke="url(#ring-cyan)" stroke-width="10" stroke-opacity="0.9" />
+  <circle cx="256" cy="256" r="94" stroke="#8b5cf6" stroke-width="5" stroke-opacity="0.7" />
+  <circle cx="256" cy="256" r="40" fill="url(#core-orb)" />
+</svg>
